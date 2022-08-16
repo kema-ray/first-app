@@ -4,6 +4,11 @@ Vue.createApp({
             goals: [],
             enteredValue: ''
         };
+    },
+    methods: {
+        addGoal() {
+            this.goals.push(this.enteredValue); 
+        }
     }
 })
 // Imperative approach
