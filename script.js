@@ -10,7 +10,7 @@ Vue.createApp({
             this.goals.push(this.enteredValue); 
         }
     }
-})
+}).mount('#app'); 
 // Imperative approach
 // const buttonEl = document.querySelector('button');
 // const inputEl = document.querySelector('input');
