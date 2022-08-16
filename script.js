@@ -1,3 +1,11 @@
+Vue.createApp({
+    data() { 
+        return{
+            goals: [],
+            enteredValue: ''
+        };
+    }
+})
 // Imperative approach
 // const buttonEl = document.querySelector('button');
 // const inputEl = document.querySelector('input');
